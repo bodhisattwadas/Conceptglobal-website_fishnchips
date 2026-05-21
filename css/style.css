@@ -6385,6 +6385,59 @@ body {
   object-fit: cover;
 }
 
+.Burger_President_area {
+  padding: 28px 0;
+}
+
+.Burger_President_area .Burger_President_here {
+  display: flex;
+  gap: 24px;
+}
+
+.Burger_President_area .Burger_President_here .single_Burger_President {
+  float: none;
+  width: 50%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.Burger_President_area .Burger_President_here .single_Burger_President .room_thumb {
+  border-radius: 8px;
+}
+
+.Burger_President_area .Burger_President_here .single_Burger_President .room_thumb img {
+  height: 420px;
+  object-fit: cover;
+}
+
+.gallery_area {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.gallery_area .gallery_grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 16px;
+  margin: 0 0 40px;
+}
+
+.gallery_area .gallery_grid .single_gallery {
+  float: none;
+  width: auto;
+  height: 320px;
+  border: 0;
+  border-radius: 8px;
+}
+
+.gallery_area .gallery_grid .single_gallery.big_img {
+  grid-column: span 6;
+}
+
+.gallery_area .gallery_grid .single_gallery.small_img {
+  grid-column: span 3;
+}
+
 .contact-section .map_area {
   position: relative;
   width: 100%;
@@ -6510,6 +6563,36 @@ body {
     height: 132px;
     flex-basis: 132px;
     margin: 0 auto 18px;
+  }
+
+  .Burger_President_area {
+    padding: 32px 0;
+  }
+
+  .Burger_President_area .Burger_President_here {
+    display: block;
+  }
+
+  .Burger_President_area .Burger_President_here .single_Burger_President {
+    width: 100%;
+    margin-bottom: 18px;
+  }
+
+  .Burger_President_area .Burger_President_here .single_Burger_President .room_thumb img {
+    height: 300px;
+  }
+
+  .gallery_area .gallery_grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin-bottom: 24px;
+  }
+
+  .gallery_area .gallery_grid .single_gallery,
+  .gallery_area .gallery_grid .single_gallery.big_img,
+  .gallery_area .gallery_grid .single_gallery.small_img {
+    grid-column: span 1;
+    height: 260px;
   }
 }
 
