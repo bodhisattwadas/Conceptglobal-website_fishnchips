@@ -6353,6 +6353,21 @@ body {
   font-weight: 800;
 }
 
+.contact-section .map_area {
+  width: 100%;
+  height: 420px;
+  margin-bottom: 48px;
+  overflow: hidden;
+  border: 3px solid var(--brand-teal);
+}
+
+.contact-section .map_area iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
 .boxed-btn,
 .boxed-btn3,
 .boxed-btn5,
@@ -6402,6 +6417,11 @@ body {
   .header-area .main-header-area .logo-img img {
     width: 72px;
     height: 72px;
+  }
+
+  .contact-section .map_area {
+    height: 300px;
+    margin-bottom: 32px;
   }
 }
 
