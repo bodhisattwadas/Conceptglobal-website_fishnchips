@@ -6280,10 +6280,23 @@ h6 {
   --brand-red: #E30620;
   --brand-gold: #F4B223;
   --brand-cream: #FFFDF8;
+  --section-bg: url(../img/banner/burger_bg_1.png);
 }
 
 body {
   background: var(--brand-cream);
+}
+
+.best_burgers_area,
+.Burger_President_area,
+.about_area,
+.gallery_area,
+.testimonial_area,
+.contact-section {
+  background-image: var(--section-bg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .header-area .main-header-area,
