@@ -6299,6 +6299,16 @@ body {
   background-repeat: no-repeat;
 }
 
+.best_burgers_area > .container,
+.Burger_President_area > .container,
+.about_area > .container,
+.gallery_area > .container,
+.testimonial_area > .container,
+.contact-section > .container {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
 .header-area .main-header-area,
 .header-area .main-header-area.sticky,
 .footer,
@@ -6569,6 +6579,16 @@ body {
 
   .contact-section .map_badge strong {
     font-size: 15px;
+  }
+
+  .best_burgers_area > .container,
+  .Burger_President_area > .container,
+  .about_area > .container,
+  .gallery_area > .container,
+  .testimonial_area > .container,
+  .contact-section > .container {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .best_burgers_area .single_delicious .thumb {
